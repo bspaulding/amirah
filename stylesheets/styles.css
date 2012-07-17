@@ -125,30 +125,23 @@ footer>nav.mobile a:visited { color: #fdfdfd; }
   width: 160px; height: auto;
   padding: 1em;
   background: rgb(255,255,255);
-  z-index: 1;
+
   -webkit-box-shadow: 0 1px 4px rgba(0, 0, 0, 0.27), 0 0 40px rgba(150, 150, 150, 0.06) inset;
 }
 
 #logo:before,
 #logo:after {
+  position: absolute; bottom: 4px;
+  width: 40%;
+  height: 10px;
   content: '';
+  background: transparent;
+  -webkit-box-shadow: 0px 6px 12px rgba(0,0,0,0.3);
   z-index: -1;
-  position: absolute;
-  left: 10px;
-  bottom: 10px;
-  width: 70%;
-  max-width: 300px;
-  max-height: 100px;
-  height: 55%;
-  -webkit-box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
-  -webkit-transform: skew(-15deg) rotate(-6deg);
 }
 
-#logo:after {
-  left: auto;
-  right: 10px;
-  -webkit-transform: skew(15deg) rotate(6deg);
-}
+#logo:before { left:  8px;  -webkit-transform: skew(-5deg) rotate(-5deg); }
+#logo:after  { right: 8px; -webkit-transform: skew( 5deg) rotate( 5deg); }
 
 footer { margin: 64px 0px; text-align: center; font-weight: lighter; font-size: 14px; }
 footer a:link { color: inherit; }
