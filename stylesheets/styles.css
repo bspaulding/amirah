@@ -26,7 +26,13 @@ body {
   color: #4C036D; /* rgb(76, 3, 109); */
 }
 
-h1,h2,h3,h4,h5,h6 { font-family: "futura-pt-condensed", sans-serif; font-size: 36px; line-height: 64px; text-shadow: 0px -1px 0px rgba(255,255,255,0.6); }
+h1,h2,h3,h4,h5,h6 {
+  font-family: "futura-pt-condensed", sans-serif;
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 64px;
+  text-shadow: 0px 1px 0px rgba(255,255,255,1), 0px 0px 1px rgba(0,0,0,.45);
+}
 h2 { font-size: 32px; }
 h3,h4,h5,h6 { font-size: 28px; line-height: 32px; }
 h4 { font-size: 24px; }
@@ -154,9 +160,9 @@ section>article {
 
 article>h1,
 article>h5.author {
-  text-align: center; /* text-shadow: 0px 1px 1px #fdfdfd, 0px -1px 0px rgba(150,150,150,0.3); */
+  text-align: center;
 }
-article>p { margin: 16px 0px 32px 0px; font-family: 'minion-pro'; }
+article>p { margin: 16px 0px 32px 0px; font-family: 'minion-pro', times, serif; }
 
 article>img { border: 1px solid rgb(198, 153, 219); padding: 1px; margin: 0px 0px 0px 16px; }
 article>img.wide  { height: 180px; }
