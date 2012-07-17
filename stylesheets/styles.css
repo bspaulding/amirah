@@ -81,16 +81,22 @@ nav>ul>li {
   border-radius: 6px;
 
   -webkit-transition: all 0.25s ease;
+  -moz-transition: all 0.25s ease;
+  transition: all 0.25s ease;
 }
 
 nav>ul>li:hover,
 nav>ul>li:active {
   background: rgb(99, 77, 110);
   -webkit-box-shadow: 0px 1px 0px rgb(76, 3, 109);
+  -moz-box-shadow: 0px 1px 0px rgb(76, 3, 109);
+  box-shadow: 0px 1px 0px rgb(76, 3, 109);
 }
 
 nav>ul>li:active {
   -webkit-box-shadow: inset 0px 1px 0px rgb(76, 3, 109);
+  -moz-box-shadow: inset 0px 1px 0px rgb(76, 3, 109);
+  box-shadow: inset 0px 1px 0px rgb(76, 3, 109);
 }
 
 nav>ul>li>a:link,
@@ -111,9 +117,12 @@ footer>nav.mobile {
   display: none;
   background: #d3acdf;
   width: 120%; position: relative; left: -10%; color: #fdfdfd;
-  -webkit-box-shadow: 0px 0px 16px rgba(0,0,0,0.25) inset;
   border: 8px solid #ead7ef;
   margin-bottom: 32px;
+
+  -webkit-box-shadow: 0px 0px 16px rgba(0,0,0,0.25) inset;
+  -moz-box-shadow: 0px 0px 16px rgba(0,0,0,0.25) inset;
+  box-shadow: 0px 0px 16px rgba(0,0,0,0.25) inset;
 }
 
 footer>nav.mobile a:link,
@@ -127,6 +136,8 @@ footer>nav.mobile a:visited { color: #fdfdfd; }
   background: rgb(255,255,255);
 
   -webkit-box-shadow: 0 1px 4px rgba(0, 0, 0, 0.27), 0 0 40px rgba(150, 150, 150, 0.06) inset;
+  -moz-box-shadow: 0 1px 4px rgba(0, 0, 0, 0.27), 0 0 40px rgba(150, 150, 150, 0.06) inset;
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.27), 0 0 40px rgba(150, 150, 150, 0.06) inset;
 }
 
 #logo:before,
@@ -136,12 +147,27 @@ footer>nav.mobile a:visited { color: #fdfdfd; }
   height: 10px;
   content: '';
   background: transparent;
-  -webkit-box-shadow: 0px 6px 12px rgba(0,0,0,0.3);
   z-index: -1;
+
+  -webkit-box-shadow: 0px 6px 12px rgba(0,0,0,0.3);
+  -moz-box-shadow: 0px 6px 12px rgba(0,0,0,0.3);
+  box-shadow: 0px 6px 12px rgba(0,0,0,0.3);
 }
 
-#logo:before { left:  8px;  -webkit-transform: skew(-5deg) rotate(-5deg); }
-#logo:after  { right: 8px; -webkit-transform: skew( 5deg) rotate( 5deg); }
+#logo:before {
+  left:  8px;
+
+  -webkit-transform: skew(-5deg) rotate(-5deg);
+  -moz-transform: skew(-5deg) rotate(-5deg);
+  transform: skew(-5deg) rotate(-5deg);
+}
+#logo:after {
+  right: 8px;
+
+  -webkit-transform: skew( 5deg) rotate( 5deg);
+  -moz-transform: skew( 5deg) rotate( 5deg);
+  transform: skew( 5deg) rotate( 5deg);
+}
 
 footer { margin: 64px 0px; text-align: center; font-weight: lighter; font-size: 14px; }
 footer a:link { color: inherit; }
