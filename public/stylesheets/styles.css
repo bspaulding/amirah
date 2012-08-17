@@ -19,6 +19,8 @@ body {
   width: 90%;
   margin: 0px auto;
 
+  overflow-x: hidden;
+
   font-family: "futura-pt", sans-serif;
   font-weight: light;
   font-size: 21px;
