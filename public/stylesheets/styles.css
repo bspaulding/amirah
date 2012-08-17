@@ -191,10 +191,16 @@ section>article {
 }
 
 article>h1,
+article>h2,
 article>h5.author {
   text-align: center;
 }
-article>p { margin: 16px 0px 32px 0px; font-family: 'minion-pro', times, serif; }
+article>p,
+article>ul { margin: 16px 0px 32px 0px; font-family: 'minion-pro', times, serif; }
+
+article>ul {
+  list-style-position: inside;
+}
 
 article>figure {
   margin: 0px 0px 0px -64px;
@@ -289,7 +295,7 @@ article>time[pubdate]>div>h3 { line-height: 16px; font-size: 16px; }
   padding: 16px;
   margin: 0px 0px 16px 0px;
   position: relative;
-  -webkit-box-shadow: 0px 0px 16px rgba(0,0,0,0.45) inset;
+  -webkit-box-shadow: 0px 0px 16px rgba(100,100,100,0.45) inset;
   text-align: center;
   border-radius: 9px;
   font-size: 32px;
@@ -348,6 +354,6 @@ article>time[pubdate]>div>h3 { line-height: 16px; font-size: 16px; }
   article>figure.left,
   article>figure.right { float: left; clear: both; margin: 0px auto 16px; display: block; }
 
-  article,
+/*  article,
   article>p { float: left; }
-}
+*/}
