@@ -8,4 +8,11 @@ class ArticlesController < ApplicationController
 
   def show
   end
+
+  # Static Pages
+
+  ["who-we-are", "what-we-do", "resources", "contact", "donate"].each do |slug|
+    define_method slug.underscore do
+    end
+  end
 end
