@@ -144,6 +144,7 @@ footer>nav.mobile a:visited { color: #fdfdfd; }
   float: left;
   width: 160px; height: auto;
   padding: 1em;
+  padding-bottom: 0px;
   background: rgb(255,255,255);
 
   -webkit-box-shadow: 0 1px 4px rgba(0, 0, 0, 0.27), 0 0 40px rgba(150, 150, 150, 0.06) inset;
