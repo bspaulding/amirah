@@ -340,6 +340,8 @@ article>time[pubdate]>div>h3 { line-height: 16px; font-size: 16px; }
   article>figure.right,
   article>.aside.quote.right { right: 0px; margin-left: 32px;  }
 
+  article>p { clear: both; }
+
   footer>nav.mobile { display: block; }
 }
 
