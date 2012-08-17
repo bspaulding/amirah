@@ -130,10 +130,6 @@ footer>nav.mobile {
   width: 120%; position: relative; left: -10%; color: #fdfdfd;
   border: 8px solid #ead7ef;
   margin-bottom: 32px;
-
-  -webkit-box-shadow: 0px 0px 16px rgba(0,0,0,0.25) inset;
-  -moz-box-shadow: 0px 0px 16px rgba(0,0,0,0.25) inset;
-  box-shadow: 0px 0px 16px rgba(0,0,0,0.25) inset;
 }
 
 footer>nav.mobile a:link,
