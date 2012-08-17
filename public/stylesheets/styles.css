@@ -347,6 +347,7 @@ article>time[pubdate]>div>h3 { line-height: 16px; font-size: 16px; }
 
 @media all and (max-width: 480px) {
   #twitter { display: none; }
+  #home>#articles { width: 100%; }
 
   article>.aside.quote.left,
   article>.aside.quote.right { margin: 16px auto 32px; width: 100%; box-sizing: border-box; }
