@@ -192,7 +192,7 @@ article>h5.author {
   text-align: center;
 }
 article>p,
-article>ul { margin: 16px 0px 32px 0px; font-family: 'minion-pro', times, serif; }
+article>ul { margin: 16px 0px; font-family: 'minion-pro', times, serif; }
 
 article>ul {
   list-style-position: inside;
