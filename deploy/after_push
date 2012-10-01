@@ -13,6 +13,5 @@ umask 002
 
 git submodule init && git submodule sync && git submodule update
 
-bundle install
 run deploy/before_restart
 run deploy/restart && run deploy/after_restart
