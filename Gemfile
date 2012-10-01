@@ -25,6 +25,7 @@ gem 'jquery-rails'
 
 group :development do
   gem "mina"
+  gem 'git-deploy'
 end
 
 # To use ActiveModel has_secure_password
