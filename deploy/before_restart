@@ -7,6 +7,7 @@ end
 
 RAILS_ENV   = ENV['RAILS_ENV'] || 'production'
 use_bundler = File.file? 'Gemfile'
+puts "use_bundler: #{use_bundler}"
 rake_cmd    = use_bundler ? 'bundle exec rake' : 'rake'
 
 if use_bundler
