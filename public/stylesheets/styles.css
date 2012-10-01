@@ -197,6 +197,10 @@ footer a:link { color: inherit; }
 section>article {
   width: 60%; display: block; margin: 0px auto;
   position: relative;
+
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
 }
 
 article>h1,
