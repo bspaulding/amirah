@@ -241,7 +241,7 @@ article>time[pubdate].hang-left>div>h1 { line-height: 32px; font-size: 28px; tex
 article>time[pubdate].hang-left>div>h2 { line-height: 32px; font-size: 32px; text-shadow: none; }
 article>time[pubdate].hang-left>div>h3 { line-height: 16px; font-size: 16px; text-shadow: none; }
 
-article.top-right {
+article {
   border-top: 8px solid rgb(198, 153, 219);
   border-top-color: rgb(76, 3, 109);
   border-bottom: 8px solid #035E13;
@@ -254,12 +254,12 @@ article.top-right {
   box-shadow: 0 1px 4px rgba(0, 0, 0, 0.27), 0 0 40px rgba(150, 150, 150, 0.06) inset;
 }
 
-article.top-right>h1 {
+article>h1 {
   text-shadow: 0px -1px 0px rgb(150,150,150);
 }
 
-article.top-right p.article-link,
-article.top-right>time[pubdate] {
+article p.article-link,
+article>time[pubdate] {
   font-family: "futura-pt-condensed";
   font-weight: normal;
   color: rgb(255,255,255);
@@ -268,33 +268,33 @@ article.top-right>time[pubdate] {
   position: relative;
 }
 
-article.top-right>time[pubdate] {
+article>time[pubdate] {
   background: rgb(198, 153, 219);
   float: right;
   top: -8px;
   right: -16px;
 }
 
-article.top-right p.article-link {
+article p.article-link {
   background: #035E13;
   float: left;
   left: -16px;
   top: -8px;
 }
 
-article.top-right p.article-link>a {
+article p.article-link>a {
   font-family: "futura-pt-condensed";
   color: rgb(255,255,255);
 }
 
-article.top-right p.article-link>a:hover { text-decoration: none; }
-article.top-right p.article-link:hover { background: rgb(142, 183, 149); }
+article p.article-link>a:hover { text-decoration: none; }
+article p.article-link:hover { background: rgb(142, 183, 149); }
 
 /* -- alternate article top-border */
 
 /* ---- dark purple */
-article.top-right { border-top-color: rgb(76, 3, 109); }
-article.top-right>time[pubdate] { background: rgb(76, 3, 109); }
+article { border-top-color: rgb(76, 3, 109); }
+article>time[pubdate] { background: rgb(76, 3, 109); }
 
 
 /* Sidebar style */
