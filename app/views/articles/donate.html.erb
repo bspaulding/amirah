@@ -1,41 +1,16 @@
 <section>
   <article class="top-right">
     <h1>Donate</h1>
-    <form action="https://www.paypal.com/cgi-bin/webscr" method="post">
+    <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_blank">
       <input type="hidden" name="cmd" value="_s-xclick">
       <input type="hidden" name="hosted_button_id" value="NXZSKUUUNY962">
-      <input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_donateCC_LG.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
+      <input type="submit" value="Donate Once" name="submit" style="margin: 0px auto;"/>
       <img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
     </form>
-    <form action="https://www.paypal.com/cgi-bin/webscr" method="post">
-      <input type="hidden" name="cmd" value="_s-xclick">
-      <input type="hidden" name="hosted_button_id" value="2KA9DPRZU84XA">
-      <table>
-        <tbody>
-          <tr><td><input type="hidden" name="on0" value="Donate to Amirah every month!">Donate to Amirah every month!</td></tr>
-          <tr>
-            <td>
-              <select name="os0">
-                <option value="Option 1">Option 1 : $5.00USD - monthly
-                </option><option value="Option 2">Option 2 : $10.00USD - monthly
-                </option><option value="Option 3">Option 3 : $20.00USD - monthly
-                </option><option value="Option 4">Option 4 : $25.00USD - monthly
-                </option><option value="Option 5">Option 5 : $50.00USD - monthly
-                </option><option value="Option 6">Option 6 : $75.00USD - monthly
-                </option><option value="Option 7">Option 7 : $100.00USD - monthly
-                </option><option value="Option 8">Option 8 : $150.00USD - monthly
-                </option><option value="Option 9">Option 9 : $200.00USD - monthly
-                </option><option value="Option 10">Option 10 : $250.00USD - monthly
-                </option>
-              </select>
-            </td>
-          </tr>
-        </tbody>
-      </table>
-      <input type="hidden" name="currency_code" value="USD">
-      <input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_subscribeCC_LG.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
-      <img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
+    <form action="/donate_monthly" method="GET">
+      <input type="submit" value="Donate Monthly" style="margin: 0px auto;"/>
     </form>
     <h2>Our Supporters</h2>
-    <img src="/images/supporters.png"  style="display: block; margin: 0px auto; border: 1px solid rgba(150, 150, 150, 0.06);"/>  </article>
+    <img src="/images/supporters.png"  style="display: block; margin: 0px auto; border: 1px solid rgba(150, 150, 150, 0.06);"/>
+  </article>
 </section>
