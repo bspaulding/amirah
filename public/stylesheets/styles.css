@@ -10,10 +10,9 @@ html {
 */}
 
 #header-bg {
-  position: absolute; top: 0px; left: 0px; right: 0px; height: 136px;
+  position: absolute; top: 64px; left: 0px; right: 0px; height: 64px;
   background-image: url('../images/bgs/header-bg.jpg');
   background-repeat: repeat-x;
-  background-position-y: 64px;
 }
 
 body {
