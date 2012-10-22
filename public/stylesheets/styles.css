@@ -52,7 +52,9 @@ a:hover, a:active {
   text-decoration: underline;
 }
 
-video {
+video { width: 100%; }
+
+.slider {
   background: black;
   display: block;
   margin: 0px auto 17px;
@@ -62,7 +64,7 @@ video {
   -webkit-box-shadow: 0px 0px 9px rgba(100,100,100,0.3);
 }
 
-video:before {
+.slider:before {
   position: relative;
   bottom: 0px; left: -100px;
   content: '';
